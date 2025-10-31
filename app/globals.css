@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+@theme {
+  --color-mint-500: oklch(0.72 0.11 178);
+  --color-primary-blue: #004c91;
+  --color-primary-red: #e94e1b;
+  --color-primary-yellow: #ffb400;
+}
