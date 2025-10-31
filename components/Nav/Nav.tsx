@@ -39,7 +39,7 @@ const Nav = ({ openNavHandler }: NavProps) => {
       <div className="flex items-center justify-between w-[90%] mx-auto h-full">
         {/* Logo */}
         <Link className="flex items-center space-x-2" href="/">
-          <div className=" w-20 h-20 bg-white rounded-full flex items-center justify-center flex-col">
+          <div className=" w-20 h-20 rounded-full flex items-center justify-center flex-col">
             <Image src={Logo} alt="Goodbye Junk Logo" />
           </div>
           <h1 className="text-xl sm:block md:text-2xl text-primary-red font-bold">
