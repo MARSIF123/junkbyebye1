@@ -16,10 +16,10 @@ const Nav = ({ openNavHandler }: NavProps) => {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY >= 90) {
+      if (window.scrollY >= 50) {
         setNavBg(true);
       }
-      if (window.scrollY < 90) {
+      if (window.scrollY < 50) {
         setNavBg(false);
       }
     };
