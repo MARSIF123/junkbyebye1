@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import Logo from "../../public/logo.png";
 import Link from "next/link";
-import NavLinks from "@/constant/constants";
+import { NavLinks } from "@/constant/constants";
 import { HiBars3BottomRight } from "react-icons/hi2";
 import { MdContactSupport } from "react-icons/md";
 

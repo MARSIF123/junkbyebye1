@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Logo from "../../public/logo.png";
 import Link from "next/link";
-import NavLinks from "@/constant/constants";
+import { NavLinksFooter } from "@/constant/constants";
 import { MdContactSupport } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa";
 import { BiEnvelope, BiMap, BiPhone } from "react-icons/bi";
@@ -21,7 +21,7 @@ const Footer = () => {
         </Link>
         {/* Navigation Links */}
         <div className="space-x-10  flex flex-col items-start lg:mb-0 mb-4 ">
-          {NavLinks.map((link) => (
+          {NavLinksFooter.map((link) => (
             <Link
               key={link.name}
               href={link.path}
