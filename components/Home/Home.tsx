@@ -5,7 +5,7 @@ import Process from "../Process/Process";
 
 const Home = () => {
   return (
-    <div className="overflow-hidden padding-top-12vh">
+    <div className="overflow-hidden padding-top-12vh z-10">
       <Hero />
       <Highlights />
       <Process />

@@ -13,7 +13,7 @@ const MobileNav = ({ showNav, closeNavHandler }: MobileNavProps) => {
   return (
     <div>
       <div
-        className={`fixed ${show} inset-0 transform transition-all right- duration-500 z[-10000]  w-full h-screen`}
+        className={`fixed ${show} inset-0 transform transition-all right- duration-500 z-[10000]  w-full h-screen`}
       >
         <div
           className={`text-white ${show} fixed justify-center flex flex-col h-full transform transition-all duration-500 delay-300 w-[80%] sm-w-[60%] bg-primary-yellow space-y-6 z-[-1000050] right-0`}

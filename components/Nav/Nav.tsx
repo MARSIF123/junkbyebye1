@@ -33,8 +33,8 @@ const Nav = ({ openNavHandler }: NavProps) => {
   return (
     <div
       className={`transition-all ${
-        navBg ? "bg-primary-yellow shadow-md" : "fixed"
-      } duration-200 h-[12vh] z-index[10000] fixed w-full`}
+        navBg ? "bg-primary-yellow shadow-md fixed" : ""
+      } duration-200 h-[12vh] z-[10000] w-full`}
     >
       <div className="flex items-center justify-between w-[90%] mx-auto h-full">
         {/* Logo */}
