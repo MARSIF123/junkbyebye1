@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import Logo from "../../public/logo.png";
+import Logo from "../../public/logo1.png";
 import Link from "next/link";
 import { NavLinks } from "@/constant/constants";
 import { HiBars3BottomRight } from "react-icons/hi2";
@@ -42,9 +42,6 @@ const Nav = ({ openNavHandler }: NavProps) => {
           <div className=" w-20 h-20 rounded-full flex items-center justify-center flex-col">
             <Image src={Logo} alt="Goodbye Junk Logo" />
           </div>
-          <h1 className="text-xl sm:block md:text-2xl text-primary-red font-bold">
-            Goodbye Junk
-          </h1>
         </Link>
         {/* Navigation Links */}
         <div className="hidden space-x-10 items-center lg:flex">
