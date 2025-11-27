@@ -1,9 +1,7 @@
 import Image from "next/image";
-import Logo from "../../public/logo.png";
+import Logo from "../../public/logo1.png";
 import Link from "next/link";
 import { NavLinksFooter } from "@/constant/constants";
-import { MdContactSupport } from "react-icons/md";
-import { FaWhatsapp } from "react-icons/fa";
 import { BiEnvelope, BiMap, BiPhone } from "react-icons/bi";
 
 const Footer = () => {
